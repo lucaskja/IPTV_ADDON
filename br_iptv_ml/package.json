@@ -1,0 +1,11 @@
+{
+	"name": "stremio-addon-ml_iptv",
+	"version": "0.0.1",
+	"description": "Open brazilian channels",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"stremio-addon-sdk": "1.1.x"
+	}
+}
