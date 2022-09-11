@@ -39,6 +39,10 @@ const manifest = {
 	"name": "ml_iptv",
 	"description": "Open brazilian channels"
 }
+let currentStreams = {
+	metas: [],
+	needToUpdate: -1
+}
 
 let metasByCat = {}
 let streamByID = {}
